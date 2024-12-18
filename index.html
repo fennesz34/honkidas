@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>top page</title>
+<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+
+</head>
+<body class="container">
+		<h1 class="display-4">おきた</h1>
+		<div class="h6 alert alert-primary">
+			<div th:text="${msg1}"></div>
+			<div th:text="${msg2}"></div>
+			<div th:text="${msg3}"></div>
+			<div th:text="${msg4}"></div>
+			<div th:text="${msg5}"></div>
+		</div>
+		
+		<form method="post" action=".">
+			<input type="submit" value="もうねる"/>
+		</form>
+		
+	
+</body>
+</html>
